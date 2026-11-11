@@ -18,13 +18,14 @@ device.name7=daikura
 device.name8=mido
 device.name9=Mi8953v1
 device.name10=Mi8953v2
+device.name11=tissot
 supported.versions=
 supported.patchlevels=
 '; } # end properties
 
 # shell variables
 block=/dev/block/bootdevice/by-name/boot;
-is_slot_device=0;
+is_slot_device=auto;
 ramdisk_compression=auto;
 
 
